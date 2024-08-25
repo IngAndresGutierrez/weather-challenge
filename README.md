@@ -1,6 +1,25 @@
 # Demo on live
 - [https://weather-challenge-vue.vercel.app/](https://weather-challenge-vue.vercel.app/)
 
+# Run local project
+
+## Install dependencies
+
+Set up your project using your preferred package manager. Use the corresponding command to install the dependencies:
+
+| Package Manager                                                | Command        |
+|---------------------------------------------------------------|----------------|
+| [yarn](https://yarnpkg.com/getting-started)                   | `yarn install` |
+| [npm](https://docs.npmjs.com/cli/v7/commands/npm-install)     | `npm install`  |
+| [pnpm](https://pnpm.io/installation)                          | `pnpm install` |
+| [bun](https://bun.sh/#getting-started)                        | `bun install`  |
+
+## Run project
+
+```bash
+npm run dev
+```
+
 # Vuetify (Default)
 
 This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
