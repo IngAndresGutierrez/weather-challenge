@@ -14,6 +14,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Weather: typeof import('./components/Weather.vue')['default']
+    WeatherCard: typeof import('./components/WeatherCard.vue')['default']
     WeatherHistory: typeof import('./components/WeatherHistory.vue')['default']
     WeatherSearch: typeof import('./components/WeatherSearch.vue')['default']
   }
