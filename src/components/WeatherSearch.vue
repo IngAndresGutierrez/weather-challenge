@@ -51,11 +51,9 @@
   }
 
   const saveHistory = () => {
-    if (!searchedCities.value.includes(city.value)) {
-      searchedCities.value.push(city.value)
-      localStorage.setItem('searchedCitiesStorage', JSON.stringify(searchedCities.value))
-      city.value = ''
-    }
+    searchedCities.value.push(city.value)
+    localStorage.setItem('searchedCitiesStorage', JSON.stringify(searchedCities.value))
+    city.value = ''
   }
 
 </script>
